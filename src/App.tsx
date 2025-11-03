@@ -14,10 +14,10 @@ function TopBar() {
     <div className="bg-gradient-to-r from-[#0b3b4a] to-[#145a6a] text-white text-sm animate-fadeIn">
       <div className="max-w-7xl mx-auto px-6 py-2 flex justify-between items-center">
         <div className="flex items-center gap-2">
-          <span>📞</span> +977-1-1234567
+          <span>📞</span> +977-9768930123
         </div>
         <div className="flex items-center gap-2">
-          <span>🕒</span> Mon - Fri: 9:00 AM - 5:00 PM
+          <span>🕒</span> Sun - Fri: 10:00 AM - 5:00 PM
         </div>
       </div>
     </div>
@@ -31,10 +31,10 @@ function Header() {
     <header className="bg-white shadow-md sticky top-0 z-50 animate-slideDown">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* LOGO */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-4">
           <img
             src={logo_bg}
-            alt="Vumi Engineering"
+            alt="Arching Design"
             className="rounded-2xl shadow-lg h-20 w-20"
           />
           <h1 className="text-xl sm:text-2xl font-extrabold text-[#0b3b4a] tracking-tight">
@@ -44,7 +44,7 @@ function Header() {
 
         {/* DESKTOP NAV */}
         <nav className="hidden md:block">
-          <ul className="flex gap-8 text-sm font-medium">
+          <ul className="flex gap-8 text-lg font-bold">
             {["Home", "About", "Services", "Projects", "Contact"].map(
               (item) => (
                 <li key={item}>
@@ -124,19 +124,19 @@ function Hero() {
 function Services() {
   const cards = [
     {
-      icon: "🏗️",
-      title: "Civil Engineering",
-      desc: "Infrastructure design and construction supervision.",
+      icon: "🏛️",
+      title: "Architectural Design",
+      desc: "Planning and designing functional, aesthetic, and sustainable building structures.",
     },
     {
-      icon: "⚙️",
-      title: "Mechanical Works",
-      desc: "Plumbing, HVAC, and machinery installation.",
+      icon: "🛋️",
+      title: "Interior Design",
+      desc: "Creating beautiful and functional indoor spaces through layout, lighting, and material selection.",
     },
     {
-      icon: "💡",
-      title: "Electrical Engineering",
-      desc: "Power distribution and control systems.",
+      icon: "🌿",
+      title: "Landscape Design",
+      desc: "Designing outdoor spaces that blend nature and architecture with harmony and style.",
     },
   ];
 
@@ -208,9 +208,9 @@ function Contact() {
             and bring your ideas to life.
           </p>
           <ul className="space-y-3 text-gray-700">
-            <li>📍 Kathmandu, Nepal</li>
-            <li>📧 info@vumiengineering.com.np</li>
-            <li>📞 +977-1-1234567</li>
+            <li>📍 Bhaktapur, Nepal</li>
+            <li>📧 archingdesign127@gmail.com</li>
+            <li>📞 +977-9768930123</li>
           </ul>
         </div>
         <form className="bg-gray-50 p-8 rounded-2xl shadow-md space-y-4">
